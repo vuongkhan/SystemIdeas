@@ -22,7 +22,7 @@ conn.once('open', () => {
 
 // Cấu hình multer storage engine
 const storage = new GridFsStorage({
-  url: "mongodb+srv://group1940:19401940@cluster0.txsa0qr.mongodb.net/IdeaSystem?retryWrites=true&w=majority", // Đường dẫn tới MongoDB Atlas
+  url: "mongodb+srv://vuongkhan:0962010052@cluster0.rsezw.mongodb.net/Idea?retryWrites=true&w=majority", // Đường dẫn tới MongoDB Atlas
   file: (req, file) => {
     return new Promise((resolve, reject) => {
       crypto.randomBytes(16, (err, buf) => {
